@@ -20,7 +20,7 @@ public class ScreenDivider : MonoBehaviour
 		upDivider.size = new Vector2(2 * ss.x, 1.04f);
 		downDivider.size = upDivider.size;
 
-		upDivider.transform.position = new Vector2(0, ss.y + 1.04f / 2);
-		downDivider.transform.position = -upDivider.transform.position;
+		upDivider.transform.position = new Vector2(0, 2 * ss.y * 0.8401703f - ss.y + 1.04f / 2);
+		downDivider.transform.position = new Vector2(0, -ss.y - 1.04f / 2);
 	}
 }

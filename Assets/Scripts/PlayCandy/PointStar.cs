@@ -29,9 +29,8 @@ public class PointStar : MonoBehaviour
 		spriteRenderer.color = clr;
 		collider2D.enabled = false;
 
-		var glowObject = Instantiate(glowEffect, transform.position, Quaternion.identity, null);
+		glowEffect.SetActive(true);
 		yield return new WaitForSeconds(1f);
-		Destroy(glowObject.gameObject);
 		Destroy(gameObject);
 	}
 }

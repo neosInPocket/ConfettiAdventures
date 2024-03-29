@@ -63,9 +63,8 @@ public class CandyPlayer : MonoBehaviour
 
 	private void Start()
 	{
-		Enable = true;
 		velocity = velocitiesSaves[CandySave.firstSave];
-		RotateInstant(V);
+		RotateInstant(0);
 	}
 
 	public void ChangeNavigationDirection(Finger finger)
@@ -126,17 +125,28 @@ public class CandyPlayer : MonoBehaviour
 
 		if (collider.TryGetComponent<PointStar>(out PointStar star))
 		{
-			StarCollected();
+			star.CollectStar();
+
+			if (StarCollected != null)
+			{
+				StarCollected();
+			}
+
 		}
 	}
 
 	public void PopCandy()
 	{
+		Enable = false;
 		spriteRenderer.enabled = false;
 		rigidbody2D.velocity = Vector2.zero;
 		explosion.gameObject.SetActive(true);
 		canvas.gameObject.SetActive(false);
-		Popped();
+
+		if (Popped != null)
+		{
+			Popped();
+		}
 	}
 
 	private void OnDestroy()
