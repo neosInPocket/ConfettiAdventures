@@ -278,7 +278,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.53958833, y: 0.20237017}
   m_AnchorMax: {x: 0.71570563, y: 0.89655524}
-  m_AnchoredPosition: {x: 20.3599, y: -13.000004}
+  m_AnchoredPosition: {x: 20.359863, y: -13}
   m_SizeDelta: {x: 40.7198, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &126437797
@@ -1145,7 +1145,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 81.75
+  m_fontSize: 67.15
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2047,7 +2047,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 83.05
+  m_fontSize: 68.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2131,7 +2131,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.2674706, y: 0.14}
   m_AnchorMax: {x: 0.49388227, y: 0.823815}
-  m_AnchoredPosition: {x: -12.799988, y: 1.199997}
+  m_AnchoredPosition: {x: -12.799988, y: 1.2000122}
   m_SizeDelta: {x: 16.7847, y: 14.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1062595853
@@ -2608,7 +2608,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 125.8
+  m_fontSize: 110.85
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4887,7 +4887,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.05610112, y: 0.22100002}
   m_AnchorMax: {x: 0.94389886, y: 0.90300006}
-  m_AnchoredPosition: {x: 0, y: 27}
+  m_AnchoredPosition: {x: 0, y: -10}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2090383532
@@ -4910,7 +4910,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: confetti adventures
+  m_text: Sweet-Bonanza Candy Launcher
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 52ae87c705c0f3849b4acef1678fc7ca, type: 2}
   m_sharedMaterial: {fileID: 5711568740240773688, guid: 52ae87c705c0f3849b4acef1678fc7ca, type: 2}
@@ -4937,7 +4937,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 106
+  m_fontSize: 102.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4945,7 +4945,7 @@ MonoBehaviour:
   m_fontSizeMax: 125.03
   m_fontStyle: 17
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 1024
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -5111,7 +5111,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.2674706, y: 0.14}
   m_AnchorMax: {x: 0.49388227, y: 0.823815}
-  m_AnchoredPosition: {x: 17, y: 7.200001}
+  m_AnchoredPosition: {x: 17, y: 7.200012}
   m_SizeDelta: {x: -20.9557, y: -22.2655}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2107574480
