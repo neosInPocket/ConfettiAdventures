@@ -31,7 +31,7 @@ public class CandySave : MonoBehaviour
 		{ SaveKeys.SecondSave, 0},
 		{ SaveKeys.Audio, 1},
 		{ SaveKeys.Music, 1},
-		{ SaveKeys.GemStones, 120},
+		{ SaveKeys.GemStones, 0},
 	};
 
 

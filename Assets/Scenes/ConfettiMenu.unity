@@ -479,14 +479,14 @@ MonoBehaviour:
   leftNavi: {fileID: 736240020}
   rightNavi: {fileID: 1576725544}
   items:
-  - upgradeDescription: first
-    upgradeName: FIRST ASAS
-    upgradeCost: 120
+  - upgradeDescription: INCREASES THE SPEED OF YOUR CANDY
+    upgradeName: SPEED INCREASE
+    upgradeCost: 80
     firstUpgrade: 1
     sprite: {fileID: 21300000, guid: f8b0260b7228e4e4ba844a5e2622b248, type: 3}
-  - upgradeDescription: second
-    upgradeName: second qsasd
-    upgradeCost: 240
+  - upgradeDescription: DECREASES THE TIME IT TAKES FOR SQUARE TO DISAPPEAR
+    upgradeName: SQUARE DISAPPEAR TIME
+    upgradeCost: 120
     firstUpgrade: 0
     sprite: {fileID: 21300000, guid: 97e4ec251938dd34cace12ed9f1c0387, type: 3}
   name: {fileID: 1899403720}
@@ -4457,7 +4457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c84df1a8e5ba364b9861964eb370e49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newCandyData: 1
+  newCandyData: 0
 --- !u!4 &1910421066
 Transform:
   m_ObjectHideFlags: 0

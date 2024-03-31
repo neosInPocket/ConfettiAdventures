@@ -400,7 +400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c84df1a8e5ba364b9861964eb370e49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newCandyData: 1
+  newCandyData: 0
 --- !u!4 &194176066
 Transform:
   m_ObjectHideFlags: 0
@@ -621,8 +621,8 @@ MonoBehaviour:
   naviRotSpeedDivider: 100
   magn: 0.3
   velocitiesSaves:
-  - 4
-  - 4
+  - 3
+  - 5
   explosion: {fileID: 1871381105}
 --- !u!58 &327442980
 CircleCollider2D:

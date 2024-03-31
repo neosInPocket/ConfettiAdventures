@@ -21,9 +21,9 @@ public class CandyMechanizer : MonoBehaviour
 	private void Start()
 	{
 		starsFill.fillAmount = 0;
-		targetTimeLeft = 10 / CandySave.candyLevel + 10;
-		targetStars = (int)(6 * Mathf.Log(CandySave.candyLevel + 1) + 2);
-		targetCoinsReward = (int)(610 * Mathf.Log(CandySave.candyLevel + 1) + 15);
+		targetTimeLeft = 10f / Mathf.Sqrt(CandySave.candyLevel) + 15f;
+		targetStars = (int)(3 * Mathf.Log(CandySave.candyLevel + 1) + 2);
+		targetCoinsReward = (int)(50 * Mathf.Log(CandySave.candyLevel + 1) + 15);
 
 		candyTimer.SetCandyTime(targetTimeLeft);
 		candyGuide.StartCandyGuide(out bool isGuide);
@@ -52,16 +52,42 @@ public class CandyMechanizer : MonoBehaviour
 		angrySquareSpawner.StartSpawnRoutine();
 		candyPlayer.Enable = true;
 		candyPlayer.ChangeNavigationDirection(finger);
+		candyPlayer.StarCollected += StarCollected;
+		candyPlayer.Popped += Popped;
+		candyTimer.StartCountDown(targetTimeLeft);
+		candyTimer.TimerExpired += Popped;
+	}
+
+	public void StarCollected()
+	{
+		if (currentStars + 1 >= targetStars)
+		{
+			DisableAllSubscribers();
+			currentStars = targetStars;
+			candyLastView.ShowCandyView(targetCoinsReward, 1);
+		}
+		else
+		{
+			currentStars++;
+		}
+
+		starsFill.fillAmount = (float)currentStars / (float)targetStars;
+	}
+
+	public void Popped()
+	{
+		DisableAllSubscribers();
+		candyLastView.ShowCandyView(0, 0);
 	}
 
 	public void DisableAllSubscribers()
 	{
+		angrySquareSpawner.Enable = false;
+		candyPlayer.Enable = false;
+		candyTimer.StopCountDown();
 		Touch.onFingerDown -= CandyStart;
-	}
-
-	public void AddScore()
-	{
-
+		candyPlayer.StarCollected -= StarCollected;
+		candyPlayer.Popped -= Popped;
 	}
 
 	private void OnDestroy()
