@@ -36,7 +36,7 @@ public class CandyGuide : MonoBehaviour
 	{
 		this.gameObject.SetActive(true);
 		Touch.onFingerDown += CandySphere;
-		candyCharacterText.text = "WELCOME TO Sweet-Bonanza Candy Launcher!";
+		candyCharacterText.text = "WELCOME TO Legend Candy Bonanza!";
 	}
 
 	public void CandySphere(Finger finger)

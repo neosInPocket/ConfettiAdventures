@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 0
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: sweboanca
-  productName: Sweet-Bonanza Candy Launcher
+  companyName: legenca
+  productName: Legend Candy Bonanza
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -161,7 +161,7 @@ PlayerSettings:
     Android: com.DefaultCompany.com.unity.template.mobile2D
     Lumin: com.DefaultCompany.com.unity.template.mobile2D
     Standalone: com.DefaultCompany.com.unity.template.mobile2D
-    iPhone: com.sweboanca.luacnheza
+    iPhone: com.legenca.bonca
     tvOS: com.DefaultCompany.com.unity.template.mobile2D
   buildNumber:
     Standalone: 0
@@ -287,7 +287,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: f0f349e1f18140f41bac7e449182d621, type: 3}
+      m_Icon: {fileID: 2800000, guid: 9e8b8463697155d469708680dd908eed, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0

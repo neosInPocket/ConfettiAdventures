@@ -12,52 +12,52 @@ EditorBuildSettings:
     path: Assets/Scenes/ConfettiGameScene.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
   - enabled: 1
-    path: Assets/Scenes/SingleHolidayCandyScene.unity
-    guid: 8af04eecd28bffa45a5088a0ce8fe7dd
+    path: Assets/Scenes/ConfettiOperatorGame.unity
+    guid: bda3ebe560d93774bb9e2b8413f01d0b
   - enabled: 1
-    path: Assets/Scenes/SingleHolidayCandyScene 1.unity
-    guid: 00b2b8790ad15c947bbca74e30152ab8
+    path: Assets/Scenes/ConfettiOperatorGame 1.unity
+    guid: afc195a23e9ac2b41af98c05b405643c
   - enabled: 1
-    path: Assets/Scenes/SingleHolidayCandyScene 2.unity
-    guid: 1e55cb88ef0e5a14b89db11d283aa311
+    path: Assets/Scenes/ConfettiOperatorGame 2.unity
+    guid: a41fcb2ca1732cc41980cb290f0168fa
   - enabled: 1
-    path: Assets/Scenes/SingleHolidayCandyScene 3.unity
-    guid: e365fa1ca793a0d4a9445a13b3aa57ab
+    path: Assets/Scenes/ConfettiOperatorGame 3.unity
+    guid: 51ea8fd8d395c93458217230aa7c52ad
   - enabled: 1
-    path: Assets/Scenes/SingleHolidayCandyScene 4.unity
-    guid: 575b63793e3017f4cae7c73b78b9c89d
+    path: Assets/Scenes/ConfettiOperatorGame 4.unity
+    guid: 9325ecfef12f3194ab094761a39df2e4
   - enabled: 1
-    path: Assets/Scenes/SingleHolidayCandyScene 5.unity
-    guid: acf9c8beef16b1a449968959132e2caf
+    path: Assets/Scenes/ConfettiOperatorGame 5.unity
+    guid: 4064efb01831c1a4ab22f77d64fa606b
   - enabled: 1
-    path: Assets/Scenes/SingleHolidayCandyScene 6.unity
-    guid: 9ccdab8a6b1b7c34c8b6f73639f92d12
+    path: Assets/Scenes/ConfettiOperatorGame 6.unity
+    guid: 63020f6469af44a429558deb555fc94f
   - enabled: 1
-    path: Assets/Scenes/SingleHolidayCandyScene 7.unity
-    guid: ac77465a1ef995a4683e4e09f6947cfb
+    path: Assets/Scenes/ConfettiOperatorGame 7.unity
+    guid: 84d46d1acc1a76c478149ef1f287e4b9
   - enabled: 1
-    path: Assets/Scenes/SingleHolidayCandyScene 8.unity
-    guid: 6486798d851b9194c8f9ff3917990ce1
+    path: Assets/Scenes/ConfettiOperatorGame 8.unity
+    guid: ef28c85700b806a4ba4adb3fa8a23548
   - enabled: 1
-    path: Assets/Scenes/SingleHolidayCandyScene 9.unity
-    guid: 0276b578c6eeb75459caedba2659bdcf
+    path: Assets/Scenes/ConfettiOperatorGame 9.unity
+    guid: 42963ac430ba02f46a11d234fed5af10
   - enabled: 1
-    path: Assets/Scenes/SingleHolidayCandyScene 10.unity
-    guid: 747402d1bac3a5d47bf7223b7e468902
+    path: Assets/Scenes/ConfettiOperatorGame 10.unity
+    guid: c9e8d945cf2fec445beed0d217746bf2
   - enabled: 1
-    path: Assets/Scenes/SingleHolidayCandyScene 11.unity
-    guid: 199f288d65a1cd04aa74e3f4f5a55417
+    path: Assets/Scenes/ConfettiOperatorGame 11.unity
+    guid: 0242bd4e642a27d4ca90287f6b823986
   - enabled: 1
-    path: Assets/Scenes/SingleHolidayCandyScene 12.unity
-    guid: ac429d64db7283849ad761fe74fcbecd
+    path: Assets/Scenes/ConfettiOperatorGame 12.unity
+    guid: 088c9f90715783041b326e4fa95bfa58
   - enabled: 1
-    path: Assets/Scenes/SingleHolidayCandyScene 13.unity
-    guid: 2eaca2f202f172a4b8f147457fd0cb28
+    path: Assets/Scenes/ConfettiOperatorGame 13.unity
+    guid: 9965fc1a575845041b975eed43fa1192
   - enabled: 1
-    path: Assets/Scenes/SingleHolidayCandyScene 14.unity
-    guid: 41433bb0d9a6a404c921f39f2cc14977
+    path: Assets/Scenes/ConfettiOperatorGame 14.unity
+    guid: 7a5497b482fa1934cb1eaddc66f0b5b0
   - enabled: 1
-    path: Assets/Scenes/SingleHolidayCandyScene 15.unity
-    guid: f2ec6d66ac537474481bd68c19bac7e0
+    path: Assets/Scenes/ConfettiOperatorGame 15.unity
+    guid: 286da5d4db9d8674f9f18dbe00b5ed56
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: b96a1337180dd764d821962eb9b37cdc, type: 2}
